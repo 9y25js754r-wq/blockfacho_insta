@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Blockfacho Instagram",
+  "version": "1.0",
+  "description": "Bloque en masse sur Instagram les comptes de l'annuaire onbloquelextremedroite.fun, automatiquement, depuis ta session déjà connectée.",
+  "permissions": ["scripting", "storage"],
+  "host_permissions": ["https://www.instagram.com/*", "https://onbloquelextremedroite.fun/*"],
+  "action": { "default_title": "Blockfacho Instagram" },
+  "background": { "service_worker": "background.js" }
+}
